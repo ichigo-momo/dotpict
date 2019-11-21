@@ -15,6 +15,27 @@
 		52934AAB238668F500255134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52934AA9238668F500255134 /* LaunchScreen.storyboard */; };
 		52934AB6238668F500255134 /* dotPictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AB5238668F500255134 /* dotPictTests.swift */; };
 		52934AC1238668F500255134 /* dotPictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AC0238668F500255134 /* dotPictUITests.swift */; };
+		52934ACF23866C2B00255134 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934ACE23866C2B00255134 /* StartViewController.swift */; };
+		52934AD023866C2B00255134 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934ACE23866C2B00255134 /* StartViewController.swift */; };
+		52934AD123866C2B00255134 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934ACE23866C2B00255134 /* StartViewController.swift */; };
+		52934AD323866CBA00255134 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AD223866CBA00255134 /* SettingViewController.swift */; };
+		52934AD423866CBA00255134 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AD223866CBA00255134 /* SettingViewController.swift */; };
+		52934AD523866CBA00255134 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AD223866CBA00255134 /* SettingViewController.swift */; };
+		52934AD7238672BE00255134 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AD6238672BE00255134 /* EditViewController.swift */; };
+		52934AD8238672BE00255134 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AD6238672BE00255134 /* EditViewController.swift */; };
+		52934AD9238672BE00255134 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AD6238672BE00255134 /* EditViewController.swift */; };
+		52934ADB2386748D00255134 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934ADA2386748D00255134 /* Picture.swift */; };
+		52934ADC2386748D00255134 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934ADA2386748D00255134 /* Picture.swift */; };
+		52934ADD2386748D00255134 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934ADA2386748D00255134 /* Picture.swift */; };
+		52934ADF2386749800255134 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934ADE2386749800255134 /* Layer.swift */; };
+		52934AE02386749800255134 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934ADE2386749800255134 /* Layer.swift */; };
+		52934AE12386749800255134 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934ADE2386749800255134 /* Layer.swift */; };
+		52934AE3238674A400255134 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AE2238674A400255134 /* Dot.swift */; };
+		52934AE4238674A400255134 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AE2238674A400255134 /* Dot.swift */; };
+		52934AE5238674A400255134 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AE2238674A400255134 /* Dot.swift */; };
+		52934AE723867B8000255134 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AE623867B8000255134 /* Color.swift */; };
+		52934AE823867B8000255134 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AE623867B8000255134 /* Color.swift */; };
+		52934AE923867B8000255134 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52934AE623867B8000255134 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +70,13 @@
 		52934ABC238668F500255134 /* dotPictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dotPictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52934AC0238668F500255134 /* dotPictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotPictUITests.swift; sourceTree = "<group>"; };
 		52934AC2238668F500255134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52934ACE23866C2B00255134 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		52934AD223866CBA00255134 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		52934AD6238672BE00255134 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		52934ADA2386748D00255134 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		52934ADE2386749800255134 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		52934AE2238674A400255134 /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
+		52934AE623867B8000255134 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +130,13 @@
 				52934A9D238668F200255134 /* AppDelegate.swift */,
 				52934A9F238668F200255134 /* ViewController.swift */,
 				52934AA1238668F200255134 /* Main.storyboard */,
+				52934ACE23866C2B00255134 /* StartViewController.swift */,
+				52934AD223866CBA00255134 /* SettingViewController.swift */,
+				52934AD6238672BE00255134 /* EditViewController.swift */,
+				52934ADA2386748D00255134 /* Picture.swift */,
+				52934ADE2386749800255134 /* Layer.swift */,
+				52934AE623867B8000255134 /* Color.swift */,
+				52934AE2238674A400255134 /* Dot.swift */,
 				52934AA7238668F500255134 /* Assets.xcassets */,
 				52934AA9238668F500255134 /* LaunchScreen.storyboard */,
 				52934AAC238668F500255134 /* Info.plist */,
@@ -259,7 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52934AD323866CBA00255134 /* SettingViewController.swift in Sources */,
 				52934AA0238668F200255134 /* ViewController.swift in Sources */,
+				52934AD7238672BE00255134 /* EditViewController.swift in Sources */,
+				52934AE723867B8000255134 /* Color.swift in Sources */,
+				52934ADF2386749800255134 /* Layer.swift in Sources */,
+				52934ACF23866C2B00255134 /* StartViewController.swift in Sources */,
+				52934AE3238674A400255134 /* Dot.swift in Sources */,
+				52934ADB2386748D00255134 /* Picture.swift in Sources */,
 				52934A9E238668F200255134 /* AppDelegate.swift in Sources */,
 				52934AA6238668F300255134 /* dotPict.xcdatamodeld in Sources */,
 			);
@@ -269,7 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52934AD8238672BE00255134 /* EditViewController.swift in Sources */,
+				52934ADC2386748D00255134 /* Picture.swift in Sources */,
 				52934AB6238668F500255134 /* dotPictTests.swift in Sources */,
+				52934AE4238674A400255134 /* Dot.swift in Sources */,
+				52934AE02386749800255134 /* Layer.swift in Sources */,
+				52934AE823867B8000255134 /* Color.swift in Sources */,
+				52934AD023866C2B00255134 /* StartViewController.swift in Sources */,
+				52934AD423866CBA00255134 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +326,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52934AD9238672BE00255134 /* EditViewController.swift in Sources */,
+				52934ADD2386748D00255134 /* Picture.swift in Sources */,
 				52934AC1238668F500255134 /* dotPictUITests.swift in Sources */,
+				52934AE5238674A400255134 /* Dot.swift in Sources */,
+				52934AE12386749800255134 /* Layer.swift in Sources */,
+				52934AE923867B8000255134 /* Color.swift in Sources */,
+				52934AD123866C2B00255134 /* StartViewController.swift in Sources */,
+				52934AD523866CBA00255134 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
