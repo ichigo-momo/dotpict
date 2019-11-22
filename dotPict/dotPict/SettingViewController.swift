@@ -11,7 +11,6 @@ import UIKit
 class SettingViewController: UIViewController {
 
     @IBOutlet weak var widthTextField: UITextField!
-    
     @IBOutlet weak var heightTextField: UITextField!
     
     
@@ -22,12 +21,30 @@ class SettingViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        var x = 0
+        var y = 0
+        
         // textFieldに設定した縦横のサイズを次の画面に持っていく
         // 何も入力しない可能性がある
-        if segue.identifier == "EditViewController" {
+        if let setWidth = widthTextField.text {
+            x = Int(setWidth)!
+        } else {
+            return
+        }
+        
+        if let setHeight = heightTextField.text {
+            y = Int(setHeight)!
+        } else {
+            let alert: UIAlertController = UIAlertController(title: "", message: "", preferredStyle: .alert)
+            let okAction: UIAlertAction =
+            return
+        }
+        
+        if (segue.identifier == "EditViewController") {
             let editViewController: EditViewController = segue.destination as! EditViewController
-            editViewController.picture.width = Int(widthTextField.text!)!
-            editViewController.picture.height = Int(heightTextField.text!)!
+            editViewController.picture.width = x
+            editViewController.picture.height = y
         }
     }
 

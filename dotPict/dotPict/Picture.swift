@@ -16,8 +16,8 @@ class Picture {
     
     // 新規レイヤーを作成
     func createLayer() {
-        var newLayer = Layer()
-        
-        //self.layers.append()
+        let newLayer = Layer()
+        newLayer.hoge(width: width, height: height)
+        self.layers.append(newLayer)
     }
 }

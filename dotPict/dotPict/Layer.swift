@@ -13,10 +13,13 @@ class Layer {
     var dots: [[Dot]] = [[]]
     
     func hoge(width: Int, height: Int) {
-        for i in (0...height) {
-            for i in (0...width) {
-                
+        for _ in (0...height) {
+            var dotArray: [Dot] = []
+            for _ in (0...width) {
+                let dot = Dot()
+                dotArray.append(dot)
             }
+            dots.append(dotArray)
         }
     }
     
